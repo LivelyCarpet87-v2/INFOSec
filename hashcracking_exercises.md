@@ -9,8 +9,8 @@ Your goal is to crack Sally's password for her.
 
 ## Exercise 1
 
-Larry forgot his password to his computer but surprisingly has the hash of the password. Larry's computer also surprisingly uses SHA2-512 hashes. 
-It is surprising he hasn't been hacked yet! Maybe he has a strong password? His hash is "229ba202203e0e8c308853a95b04c55a4ea392c0d6e7edf591f0ce477d8b640e93704dbd33411e88913223fff54becfdb4b9d002d6a07156d187a798474e073f". He works at a company called NotWideOpen, specializing in giving people mediocre
+Larry forgot his password to his computer but surprisingly has the hash of the password. Larry's computer also surprisingly uses Whirlpool hashes. 
+It is surprising he hasn't been hacked yet! Maybe he has a strong password? His hash is "517ea270d4704a2ac187236eff114d45368860fbe0ad4a15c46eb9bb338a68fcb3634c15cbdbf505f7c3ce931f23f0eac572efbd71d216f1f63e32c95efd32dd". He works at a company called NotWideOpen, specializing in giving people mediocre
 security solutions. He has a turtle called Speedy. He was born on Feb 23, 1949. He is married to Tina and loves boxing. He uses leet way too much. 
 Your goal is to crack Larry's password for him. 
 
