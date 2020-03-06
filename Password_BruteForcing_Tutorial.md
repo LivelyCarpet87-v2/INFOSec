@@ -37,9 +37,11 @@ Answer the questions you can.
 
 # Further Readings:
 
-Hashcat Masking Attack explained: https://hashcat.net/wiki/doku.php?id=mask_attack
+## Hashcat Masking Attack Explained: https://hashcat.net/wiki/doku.php?id=mask_attack
 
-Hashcat Combinator Attack explained: https://hashcat.net/wiki/doku.php?id=combinator_attack
+This gives you the ability to try passwords you know parts of. For example, a command 'hashcat 6c7959be667ddd7affb04aa10c7d042447fc1c998cbce0ad5b24ec50a4f069ef -a 3 Jenny?l?l?l?l?lcat -m 17400' will try all passwords from "Jenny00000cat" to "Jenny99999cat". See more by following the link. 
+
+## Hashcat Combinator Attack explained: https://hashcat.net/wiki/doku.php?id=combinator_attack
 
 # Send into the INFOSec Group Chat "ApplePenPinapplePen" to prove you read this. Be aware of intentional typo.  
 You will get candy if only a few people send this. So don't explain. 
