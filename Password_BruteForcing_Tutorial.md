@@ -40,3 +40,6 @@ Answer the questions you can.
 Hashcat Masking Attack explained: https://hashcat.net/wiki/doku.php?id=mask_attack
 
 Hashcat Combinator Attack explained: https://hashcat.net/wiki/doku.php?id=combinator_attack
+
+# Send into the INFOSec Group Chat "ApplePenPinapplePen" to prove you read this. Be aware of intentional typo.  
+You will get candy if only a few people send this. So don't explain. 
