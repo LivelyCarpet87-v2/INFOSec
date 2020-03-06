@@ -1,7 +1,7 @@
 # Easy (should be solvable using the tutorial alone)
 
 Sally forgot her password to her computer but surprisingly has the hash of the password. Sally's computer also surprisingly uses md5 unsalted hashes. 
-It is surprising she hasn't been hacked yet! Her hash is "". She works at a company called WideOpen, specializing in giving people bad
+It is surprising she hasn't been hacked yet! Her hash is "64b3a568157fcb0e0ba07644630e73d6". She works at a company called WideOpen, specializing in giving people bad
 security solutions for high prices. She has a cat called MCFluffers. She was born on Dec 23, 1968. She is unmarried and loves hockey. She does not know leet. 
 Your goal is to crack Sally's password for her. 
 
@@ -10,7 +10,7 @@ Your goal is to crack Sally's password for her.
 ## Exercise 1
 
 Larry forgot his password to his computer but surprisingly has the hash of the password. Larry's computer also surprisingly uses SHA2-512 hashes. 
-It is surprising he hasn't been hacked yet! Maybe he has a strong password? His hash is "". He works at a company called NotWideOpen, specializing in giving people mediocre
+It is surprising he hasn't been hacked yet! Maybe he has a strong password? His hash is "229ba202203e0e8c308853a95b04c55a4ea392c0d6e7edf591f0ce477d8b640e93704dbd33411e88913223fff54becfdb4b9d002d6a07156d187a798474e073f". He works at a company called NotWideOpen, specializing in giving people mediocre
 security solutions. He has a turtle called Speedy. He was born on Feb 23, 1949. He is married to Tina and loves boxing. He uses leet way too much. 
 Your goal is to crack Larry's password for him. 
 
