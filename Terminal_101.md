@@ -1,8 +1,24 @@
+# What is Terminal?
+
+Terminal starts a bash session whenever you open a tab, and allows you to use a wide variety of tools. You run commands and scripts, which will give you feedback by printing a line in your window. To use an installed command, just type its name. Bash will find it for you. Be aware, you can't use the mouse in this window and most keys have special meanings. Read on to learn more on how to use Terminal. 
+
+https://en.wikipedia.org/wiki/Bash_(Unix_shell) <- explains what a bash shell is.
+
 # How to open terminal?
 
 Open spotlight and type terminal. Hit enter to open the application. A white (or black) window should appear. You've opened a bash shell. 
 
-https://en.wikipedia.org/wiki/Bash_(Unix_shell) <- explains what a bash shell is.
+# Flags
+
+They are modifiers to commands and scripts. For example, in "cowsay -h", the "-h" is a flag. It tells the program behind the cowsay command you are asking for help. Similarly, in "cowsay -d hi", it tells the program to display a dead cow saying hi. Flags can also have inputs, such as "cowsay -f vader hi", "-f vader" tells cowsay to use the darth-vader style cow. As you may have noticed, most flags only accept one word after. 
+
+## Common Flags
+
+-v, -V increase verbosity, gives more output
+
+-h, --help gives help
+
+-q quiet mode
 
 # Manual (the only command you need to really know)
 USAGE: man [command]
@@ -27,6 +43,24 @@ Changes the working directory of the terminal window to other directories.
 ## Ctrl + c
 
 Hard stops current running terminal process
+
+## brew
+
+USAGE: brew [un]install [tool]
+
+This is not preinstalled on Macos. It lets you manage packages and apps from the command line. 
+
+eg. brew install python3
+
+Download homebrew by going here -> brew.sh
+
+## Python3 
+
+USAGE: python3 [file] 
+
+May come preinstalled. It allows you to execute python programs. 
+
+eg. python3 /Users/me/some/folder/myscript.py
 
 ## rm
 USAGE: rm [file]
