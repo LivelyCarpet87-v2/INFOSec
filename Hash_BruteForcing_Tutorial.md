@@ -1,6 +1,7 @@
 # Hashcat Installation
+Option 1: Run the installation package given in wechat group. 
 
-Simply run 'brew install hashcat' Homebrew will collect a compiled hashcat binary and install it for you. 
+Ooptioon 2Simply run 'brew install hashcat' Homebrew will collect a compiled hashcat binary and install it for you. 
 
 If you don't have homebrew, run this first: '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"'
 
