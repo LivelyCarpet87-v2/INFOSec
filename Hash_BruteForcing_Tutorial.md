@@ -1,3 +1,7 @@
+# What is a hash?
+
+A hash is a function that converts one value to another. It is usually computationally easy to convert a value into the hashed value, but computationally hard the other way around. This is why hashes are used to store user passwords, because the website can check the hash matches, without fear of passwords leaked as plain text. 
+
 # Hashcat Installation
 Option 1: Run the installation package given in wechat group. 
 
