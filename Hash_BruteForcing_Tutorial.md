@@ -9,6 +9,8 @@ Ooptioon 2Simply run 'brew install hashcat' Homebrew will collect a compiled has
 
 If you don't have homebrew, run this first: '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"'
 
+more explained here -> https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/Terminal_101.md#brew
+
 Without the outermost quotes!!! Watch it install. It will ask you things!
 
 # CUPP installation
