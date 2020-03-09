@@ -1,4 +1,14 @@
+# This is the Challenges Section of the Hashcracking
+
+If you are still confused about what a hash is, go here -> https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/Hash_BruteForcing_Tutorial.md#what-is-a-hash
+
+If you don't think you have the necessary tools, go here -> https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/Hash_BruteForcing_Tutorial.md#hashcat-installation
+
+Else, continue reading. 
+
 # Easy (should be solvable using the tutorial alone)
+
+Tutorial here: https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/Hash_BruteForcing_Tutorial.md#hashcat-basics-tutorial
 
 Sally forgot her password to her computer but surprisingly has the hash of the password. Sally's computer also surprisingly uses md5 unsalted hashes. 
 It is surprising she hasn't been hacked yet! Her hash is "64b3a568157fcb0e0ba07644630e73d6". She works at a company called WideOpen, specializing in giving people bad
