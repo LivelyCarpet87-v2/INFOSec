@@ -44,6 +44,8 @@ Answer the questions you can.
 
 # Further Readings:
 
+At this point, you are ready to go here to crack some hashes: https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/hashcracking_exercises.md#easy-should-be-solvable-using-the-tutorial-alone
+
 ## Hashcat Masking Attack Explained: https://hashcat.net/wiki/doku.php?id=mask_attack
 
 This gives you the ability to try passwords you know parts of. For example, a command 'hashcat 6c7959be667ddd7affb04aa10c7d042447fc1c998cbce0ad5b24ec50a4f069ef -a 3 Jenny?l?l?l?l?lcat -m 17400' will try all passwords from "Jenny00000cat" to "Jenny99999cat". See more by following the link. 
