@@ -28,6 +28,10 @@ brew install python3
 
 Homebrew
 
+### Special Note(MacOS only)
+
+MacOS comes pre-installed with python2.7 until Catalina. However, python2.7 is depreciated and most tools no longer use it. Because python3 is not backwards compatible, scripts in python3 python scripts cannot be run by python2.7. So remember to use python3 instead of python, and pip3 instead of pip when using python on MacOS unless told explicitly otherwise.  
+
 # Past Projects
 
 ## Hashcat
