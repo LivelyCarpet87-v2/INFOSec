@@ -58,9 +58,17 @@ Download homebrew by going here -> brew.sh
 
 USAGE: python3 [file] 
 
-May come preinstalled. It allows you to execute python programs. 
+Is not preinstalled on MacOS. It allows you to execute python programs. 
 
 eg. python3 /Users/me/some/folder/myscript.py
+
+## pip3 
+
+USAGE: pip3 install [python pkg]
+
+This is used in place of "pip install" commands on MacOS to install python3 packages. If the user uses "pip install", the package will likely be useless as it is for the python2.7 version, if the command functions at all.  Often, pip3 may have errors involving file permissions, in those cases, use "sudo -H pip3 install [pkg]" instead of "pip3 install". (Sudo means installing as root, use with caution). To uninstall, use "pip3 uninstall [pkg]". 
+
+eg. pip3 install twint; pip3 install -r requirements.txt; sudo -H pip3 install -r requirements.txt;
 
 ## rm
 USAGE: rm [file]
@@ -69,11 +77,19 @@ removes files permanently
 
 [file] has to be in current directory, or expressed in absolute path
 
-USE CAREFULLY, THIS IS NOT MOVE TO TRASH. NOT EASILY RECOVERABLE
+USE CAREFULLY, THIS IS NOT MOVE TO TRASH. NOT RECOVERABLE. You WILL NOT find the file in trash. 
 
 eg. "rm junkfile"
 
 # More Advanced
+
+## sudo
+
+USAGE: sudo [some command]
+
+This is a very dangerous command. It runs the command as root, which has more rights than "admin", your normal administrator account. Use this very carefully, because you can break things with the elevated privileges. When in doubt, don't use it. Don't use it unless you absolutely need to. 
+
+eg. sudo nmap 
 
 ## SSH
 
