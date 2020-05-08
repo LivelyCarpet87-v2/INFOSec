@@ -43,16 +43,22 @@ patchDropdown(){
 }
 
 updateRepo(){
-  if [[ ! -d /Users/${USER}/INFOSec ]]
+  if [[ $noGit == 0 ]]
   then
-    echo "---"
-    echo "Club Repository Not Found | color=orange"
-    echo "Clone Club Repository (Click Me) | bash=git param1=clone param2=https://github.com/LivelyCarpet87-v2/INFOSec"
+    if [[ ! -d /Users/${USER}/INFOSec ]]
+    then
+      echo "---"
+      echo "Club Repository Not Found | color=orange"
+      cd /Users/${USER}
+      echo "Clone Club Repository (Click Me) | bash=git param1=clone param2=https://github.com/LivelyCarpet87-v2/INFOSec"
+    else
+      echo "---"
+      echo "Repository Status:"
+      cd /Users/${USER}/INFOSec
+      git pull --force https://github.com/LivelyCarpet87-v2/INFOSec master 2> /dev/null
+    fi
   else
-    echo "---"
-    echo "Repository Status:"
-    cd /Users/${USER}/INFOSec
-    git pull --force https://github.com/LivelyCarpet87-v2/INFOSec master 2> /dev/null
+     echo "Git command is required and not found. Please install it for full functionality of updating club repository. Click me for install instructions|href=https://www.atlassian.com/git/tutorials/install-git";
   fi
 }
 
@@ -61,6 +67,24 @@ updateRepo(){
 valid=1
 retries=0
 maxRetries=10
+noGit=0
+noBrew=0
+
+# Validate needed programs exist
+command -v curl >/dev/null 2>&1 || { echo >&2 "Curl is required and not found. Should be installed by default Aborting."; exit 1; }
+command -v xmllint >/dev/null 2>&1 || { echo >&2 "Xmllint is required and not found. Should be installed by default Aborting."; exit 1; }
+command -v echo >/dev/null 2>&1 || { echo >&2 "Echo is required and not found. Should be installed by default Aborting."; exit 1; }
+command -v let >/dev/null 2>&1 || { echo >&2 "Let is required and not found. Should be installed by default Aborting."; exit 1; }
+command -v git >/dev/null 2>&1 || noGit=1
+command -v brew >/dev/null 2>&1 || noBrew=1
+
+if [[ $noGit == 1 && $noBrew == 0 ]]
+then
+  brew install git
+  if [[ $? == 0 ]]; then
+    noGit=0
+  fi
+fi
 
 while [[ $valid != 0 && $retries -le $maxRetries ]]
 do

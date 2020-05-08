@@ -384,6 +384,15 @@
 			<key>requirement</key>
 			<string>cdhash H"742b04f2ec810ede479c63eb7984ee2971b45328" or cdhash H"439f846f9581cb20d35ad7b7166be5cc069ccfab"</string>
 		</dict>
+		<key>MacOS/INFOSec.15m.sh</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			sklT0SadgGupQoERCDGa0NKT4nE=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"4d5699a20f739e8dc6647dc5a2deac1f36b5f7d0" or cdhash H"b24953d1269d806ba942811108319ad0d293e271"</string>
+		</dict>
 		<key>Resources/App.nib</key>
 		<dict>
 			<key>hash</key>
