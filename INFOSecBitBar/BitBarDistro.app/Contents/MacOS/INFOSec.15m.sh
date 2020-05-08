@@ -43,9 +43,11 @@ patchDropdown(){
 }
 
 updateRepo(){
-  if [ ! -d /tmp/pastebinReader ]
+  if [[ ! -d /Users/${USER}/INFOSec ]]
   then
-    git clone https://github.com/LivelyCarpet87-v2/INFOSec > /dev/null
+    echo "---"
+    echo "Club Repository Not Found | color=orange"
+    echo "Clone Club Repository (Click Me) | bash=git param1=clone param2=https://github.com/LivelyCarpet87-v2/INFOSec"
   else
     echo "---"
     echo "Repository Status:"
@@ -99,7 +101,7 @@ then
 
     if [[ $num == 1 ]]
     then
-      echo " | dropdown=false templateImage=$logo"
+      echo " | dropdown=false templateImage=$elijahLogo"
     fi
 
     echo "---"
