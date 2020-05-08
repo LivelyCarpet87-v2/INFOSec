@@ -58,7 +58,7 @@ updateRepo(){
       git pull --force https://github.com/LivelyCarpet87-v2/INFOSec master 2> /dev/null
     fi
   else
-     echo "Git command is required and not found. Please install it for full functionality of updating club repository. Click me for install instructions|href=https://www.atlassian.com/git/tutorials/install-git";
+     echo "Git command is required and not found. Click me for install instructions|href=https://www.atlassian.com/git/tutorials/install-git";
   fi
 }
 
@@ -80,7 +80,7 @@ command -v brew >/dev/null 2>&1 || noBrew=1
 
 if [[ $noGit == 1 && $noBrew == 0 ]]
 then
-  brew install git
+  brew install git 2> /dev/null
   if [[ $? == 0 ]]; then
     noGit=0
   fi
