@@ -1,6 +1,7 @@
 #!/bin/bash
 #ASSETS#
-elijahLogo="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"
+
+INFOSecIcon="iVBORw0KGgoAAAANSUhEUgAAAFYAAABWCAYAAABVVmH3AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAACxLAAAsSwGlPZapAAABWWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpMwidZAAADEUlEQVR4Ae2a4W7DIAyEu2nv/8qbqOaKUNtgbCeQ3v6QAD7bH9eo7fp44A8EQAAEHl+BDH4FrcgcQor1pqOalqBSx1F5SG/5MaLhHlSCEJGLtJYfv50VjkJ1ptkv3OOiWaienNsQnnXsLNQCZiS23lOu6/st4FrcE90cl1vLwe1fFvKsYzMa0qBm5EvV7LlAapbipHVL0UXLqkP5LXlO3fujZLM2q0ipSxF5IjTUIjuLbwctgeUKfQvuJDtrmav1rNyUp9Rw4LPSM5aK3HU8HLDkWGrucAo0+T8ehJq1T719ObcHVgJ0BVTpkKV5qfboeZYF9yhgN0ZXc3e9Fuwo1Ktdsvy51GBHoVJTZ8Etec7KRb25xxrsjNiWTc80ao2pwXKusLrYmr+3n6upF7PEeg1WKmgEbjSA7V8JLVipoSvgSge9xfyo0ziwvVguRoPS09Nir1xr+3z20TrWUmAr2MbuCqrtY+p+FOwspNm4qWZWChoFW2qegdRzNenOaK/E8a0WC1gOQgGnwbsdsDeCwoQVbJFpQWrw2r1tGVpsu3ere8u3WxwkDQy3n+BocbRn63HUsRwkDQ63f2tQ1uJHHMtBmoGqxVjrXn5/z7EcVK0p635Na+u1HlipOQ4gNyfF335+9OVphTaqewfALZtn76OO/SRQIYc9CjYk2SeJjLwrIB5wLZEYGOHYAUgzWyLAlod3+wCfqeVWMV6wACrYwQMWUAWoZdoDVpHFEsAmeQBgATaJQJIsHAuwSQSSZOFYgE0ikCQLxwJsEoEkWTgWYJMIJMnCsQCbRCBJFo4F2CQCSbJwLMAmEUiShWOTwFp+V9ArAf8DqwjBsRWMyEuAjaRZaQFsBSPycqffY9XP8F7dlr2RPF9ad3BsgViDfDV35cUdwF7JT8wNsCIa3wLA+viJ0QArovEtAKyPnxgNsCIa3wLA+viJ0ZFfwohJnAve96gU3/tQ4SzzGL66YwnKseq5u0itbgUrg80AkaHJQj715cFWsMbH0XAOKztWOIc9pgF2j3NClSAAAiAAAiCQT+APO45GmLAaUqQAAAAASUVORK5CYII="
 
 alert="iVBORw0KGgoAAAANSUhEUgAAAFYAAABWCAYAAABVVmH3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAsSwAALEsBpT2WqQAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAA09JREFUeAHtmO1y4zAIRdOdff9X7o46ZUchfEpgi4T+kS3BBY6IbPfx6L8m0ASawOMrkME3oxUZgwlx3nRU0RxUqDgqDugdP0YUrEEFCBGxQOv48c9mhlaom2Hque900SrUnZhlCK927CrUAcbiO9uM6/m+BFxP90QXR8WWYlD2x0Je7diMgiSoGfFSNbUu4IoFP27dk/TQ8upAfE+cS23/CtG8xQpS4lJEnAgNMUll8WWjObBUoi/OSrCrlqlcr4oNcUYOT3xOOmMhyarj0wZzHQvFPe0CTP6OT0Jo7VNv/3euBpYDdAdUbpO5eS736HmSBXUUkIbR2by7HgZrhXp3lxy/LzNYK1Qo6iq4I85VsaC27XEGuyJWsuiVQr0+M1iqK7xd7I2v2VM5aT5HrM9guYQscKMBlP8lYLBcQXfA5Ta6xLy10yiwmi/lI0HR9CTfO9dwnT914I71JIgFse9VoEYeWi44t/R7K9hVSKt+1sJnoPO11T/Nzgp2JLACyVLs0I3StsRLgzkLe8AOPwxhFCIVswJszq/stRfsKBSDlOBhWwxK8sW2pe49/92iIElgKHuAI/mBTenR2rEUJAkOZV8alDd5S8dSkFagSj7evI+31zqWgioV5bWXtEqvaWC54iiA1Bzn//bz2lEAP18KGjUHwMAP7j9utHbsx4PydoYVrFf34+21o2AG1F0701Cuu2MVQKvLEWDHQ0x6kK3mVtpvF2wDZbZ/B2xDZaCO6R2wgmwvVQZLvaVQc7fscmWwtwCzBq0Odu7Q+dpaf5qd5wMhLYlN4aOAQi3VOxbqOG5ssElb0mAbbBKBJNnqDy/89XfMg6zyUYChjt6j5pJ6UpatDFau7ObVBpu0AQ22wb4QoB5U1NyL4xUT1d8KjgGJN6uPAkwk6L7BBoHEMg0WEwm6jzxjj3k5D2KzJdMdu4WPd26wPJutlQa7hY93PvY9kEh5PsO1vD22RKj9qXfo2AFxBrlPJUDhHcAGYIiXaLDxTH8UG2yDTSKQJNsd22CTCCTJdscmgY38J0xSitvvqPCOq31UhOZ/escClIiiI7XUfE4GmwEiQ5OEfOnPg8zgjM/RcA4ndyyzDzWmG2yNfeosm0ATaAJNoAnkE/gHiYVPoQPcPU0AAAAASUVORK5CYII="
 
@@ -16,8 +17,8 @@ directoryIcon="iVBORw0KGgoAAAANSUhEUgAAAFYAAABWCAYAAABVVmH3AAAAAXNSR0IArs4c6QAAA
 
 terminalIcon="iVBORw0KGgoAAAANSUhEUgAAAFYAAABWCAYAAABVVmH3AAAAAXNSR0IArs4c6QAAAAlwSFlzAAAsSwAALEsBpT2WqQAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAA4ZJREFUeAHtmNGS2zAIRdNO//+Xt6N06SgYkBAgIy/7UMcSXLhHxFPn9aq/IlAEisDrlyODL0bLswZTIt+yl2kOKjj2qgN66a8ehkdQAYJHLdBKf/1t7HAWqrHMeemWKVqFaql5DOHViV2F2sDM5PYx7XN/fwRczfR4m6NqSzWo+LSQVyc2wpAENaJeqOZoCjizkMfta5puWlodqK+pszX2j1BNa1aQErc86nhoiE0ONi8HzYGlGr0kD4rt2qZ63VUb6rQePvhkesZCk6dePw6Ym1gw93EKsPh9/RBCez/19v/kjsBygO6Ayh0yt8717r1OsqAeBWSgdzdP18NgZ6HePSXpz6UHOwsVTO2C2+rsqgXezNce7IrYkaZXjGpzerDUVGinWFt/FE/1NMpJsd+D5RqagesN4PhvAgbLGboDLnfQR6zPThoFdpRL5UhQRnpS7p172OfbB55YTYNYEOeeCgr7WLqfBbsKaTVvyUympFmwrecVSKOpBt0V7UwcL71owFIQGjgJ3uOAXQgyC1qwTQaDlODhWNyGlItjj7rX/LpFQZLAUPEAR8qDmKOvsxNLQZLgUPFHg9I2PzOxFKQVqFxOr8/FaH3dHj+a2N70TLPaeKzZ8q0aWPOW+xFYrinKPLXG5Y/WPbVGtUL2Z796WqOzumBK0tdqgeauK+793e/sxEaba/pcDdz4LmCmOrNgTUUUyY+ByxlRsAgL5SY1W8+4z3d/2Sa2PyUOIDbS56T57AG2GY0yK8GNqulyOFawO8w1uBJgFxDeIhawO6D2fjm4fUyazzOvtBma3X2IZs+WiTUXnxSQoKad4swTeyRQGJasYDmoaScUgMI1G1gOaOv3GKit2SxgHwO0QW1/GcB6Q5X0/rnW/6v+tmQAS9lUG6FE7lzLBvZ4oHCYGcA+BiZAbdcMYPt+PD6nOKgT3rw8YG/XKLBByAtsgQ0iECRbE1tggwgEydbEFtggAkGyni8IET9+BNmOl61HQRDjAltggwgEyab4wWLSW/8MH/WtiZ0srwt7wqOgQexB6ggERT8BbBAam2yBtfFjswssi8a2UWBt/NjsAsuisW0UWBs/NrvAsmhsG54/wtg64bOt/0eF/NFLBd/Bwk72iQUoC9YuKZ5aF3G8kBlsBIgITcz0fb/160F2kON11J1D5ollzuGM5QJ7xjlVl0WgCBSBIlAE4gn8BTruW6oey8tHAAAAAElFTkSuQmCC"
 
+moreIcon="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"
 #END ASSETS#
-
 #BEGIN FUNCTIONS#
 patchMenu(){
   position=$1
@@ -26,8 +27,7 @@ patchMenu(){
   do
     toPrint=""
     tmpPatch=$(echo "$paste" | xmllint --xpath "string(/INFOSec/menuPatches/position${position}/patch${num})" - )
-    if [[ $tmpPatch != "" ]]
-    then
+    if [[ $tmpPatch != "" ]]; then
       echo "$tmpPatch"
       ((num=$num+1))
     else
@@ -43,8 +43,7 @@ patchDropdown(){
   do
     toPrint=""
     tmpPatch=$(echo "$paste" | xmllint --xpath "string(/INFOSec/dropdownPatches/position${position}/patch${num})" - )
-    if [[ $tmpPatch != "" ]]
-    then
+    if [[ $tmpPatch != "" ]]; then
       echo "$tmpPatch"
       ((num=$num+1))
     else
@@ -53,20 +52,39 @@ patchDropdown(){
   done
 }
 
+patchMore(){
+  num=1
+  position=$1
+  while [[ 1 == 1 ]]
+  do
+    toPrint=""
+    tmpPatch=$(echo "$paste" | xmllint --xpath "string(/INFOSec/moreMenuPatches/position${position}/patch${num})" - )
+    if [[ $tmpPatch != "" ]]; then
+      echo "--$tmpPatch"
+      ((num=$num+1))
+    else
+      break
+    fi
+  done
+}
+
 updateRepo(){
-  if [[ $noGit == 0 ]]
-  then
-    if [[ ! -d /Users/${USER}/INFOSec ]]
-    then
+  if [[ $noGit == 0 ]]; then
+    if [[ ! -d /Users/${USER}/INFOSec ]]; then
       echo "---"
       echo "Club Repository Not Found | color=orange"
-      echo "Clone Club Repository (Click Me) | bash=git param1=clone param2=https://github.com/LivelyCarpet87-v2/INFOSec href='$refreshURL'"
+      echo "Clone Club Repository (Click Me) | bash=git param1=clone param2=https://github.com/LivelyCarpet87-v2/INFOSec param3=';open' param4='$refreshURL'"
     else
-      echo "---"
-      echo "Repository Status:"
       cd /Users/${USER}/INFOSec
-      if [[ $? == 0 ]]; then
+      inside_git_repo="$(git rev-parse --is-inside-work-tree 2>/dev/null)"
+      if [ "$inside_git_repo" ]; then
+        echo "---"
+        echo "Repository Status:"
         git pull --force https://github.com/LivelyCarpet87-v2/INFOSec master 2> /dev/null
+      else
+        echo "---"
+        echo "Club Repository Not Found | color=orange"
+        echo "Clone Club Repository (Click Me) | bash='rm -i -R /Users/${USER}/INFOSec;git' param1=clone param2=https://github.com/LivelyCarpet87-v2/INFOSec param3=';open' param4='$refreshURL'"
       fi
     fi
   else
@@ -74,6 +92,15 @@ updateRepo(){
   fi
 }
 
+validateBinariesExist(){
+  command -v curl >/dev/null 2>&1 || { echo >&2 "Curl is required and not found. Should be installed by default. Aborting."; exit 1; }
+  command -v xmllint >/dev/null 2>&1 || { echo >&2 "Xmllint is required and not found. Should be installed by default. Aborting."; exit 1; }
+  command -v echo >/dev/null 2>&1 || { echo >&2 "Echo is required and not found. Should be installed by default. Aborting."; exit 1; }
+  command -v let >/dev/null 2>&1 || { echo >&2 "Let is required and not found. Should be installed by default. Aborting."; exit 1; }
+  command -v /usr/bin/open >/dev/null 2>&1 || { echo >&2 "Let is required and not found. Should be installed by default. Aborting."; exit 1; }
+  command -v git >/dev/null 2>&1 || noGit=1
+  command -v brew >/dev/null 2>&1 || noBrew=1
+}
 #END FUNCTIONS#
 
 valid=1
@@ -82,18 +109,13 @@ maxRetries=10
 noGit=0
 noBrew=0
 refreshURL='bitbar://refreshPlugin?name=INFOSec.*?.sh'
+rawURL='https://pastebin.com/raw/UL2G9Wq9'
 
 
 # Validate needed programs exist
-command -v curl >/dev/null 2>&1 || { echo >&2 "Curl is required and not found. Should be installed by default Aborting."; exit 1; }
-command -v xmllint >/dev/null 2>&1 || { echo >&2 "Xmllint is required and not found. Should be installed by default Aborting."; exit 1; }
-command -v echo >/dev/null 2>&1 || { echo >&2 "Echo is required and not found. Should be installed by default Aborting."; exit 1; }
-command -v let >/dev/null 2>&1 || { echo >&2 "Let is required and not found. Should be installed by default Aborting."; exit 1; }
-command -v git >/dev/null 2>&1 || noGit=1
-command -v brew >/dev/null 2>&1 || noBrew=1
+validateBinariesExist
 
-if [[ $noGit == 1 && $noBrew == 0 ]]
-then
+if [[ $noGit == 1 && $noBrew == 0 ]]; then
   brew install git 2> /dev/null
   if [[ $? == 0 ]]; then
     noGit=0
@@ -103,20 +125,16 @@ fi
 while [[ $valid != 0 && $retries -le $maxRetries ]]
 do
   sleep 1
-  paste=$(curl --silent https://pastebin.com/raw/UL2G9Wq9)
+  paste=$(curl --silent $rawURL)
   echo "$paste" | xmllint --xpath "string(/INFOSec/status)" - 1>&- 2>&-
   valid=$?
   let "retries=$retries+1"
 done
 
-if [[ $valid == 0 ]]
-then
+if [[ $valid == 0 ]]; then
   status=$(echo "$paste" | xmllint --xpath "string(/INFOSec/status)" - )
-
-
 #Begin Normal Display Mode
-  if [[ $status == "enabled" ]]
-  then
+  if [[ $status == "enabled" ]]; then
 
     #patches to the Menu Bar
     #Custom Patches into Menu Bar Position1 (To prevent needing to update the plugin to add new parts)
@@ -128,8 +146,7 @@ then
       toPrint=""
       tmpReminder=$(echo "$paste" | xmllint --xpath "string(/INFOSec/reminder${num}/content)" - )
       tmpLink=tmpReminder=$(echo "$paste" | xmllint --xpath "string(/INFOSec/reminder${num}/link)" - )
-      if [[ $tmpReminder != "" ]]
-      then
+      if [[ $tmpReminder != "" ]]; then
         echo "$tmpReminder"" | length=15 dropdown=false templateImage=$alert"
         ((num=$num+1))
       else
@@ -137,9 +154,8 @@ then
       fi
     done
 
-    if [[ $num == 1 ]]
-    then
-      echo " | dropdown=false templateImage=$elijahLogo"
+    if [[ $num == 1 ]]; then
+      echo " | dropdown=false templateImage=$INFOSecIcon"
     fi
 
     echo "---"
@@ -154,11 +170,9 @@ then
       toPrint=""
       tmpReminder=$(echo "$paste" | xmllint --xpath "string(/INFOSec/reminder${num}/content)" - )
       tmpLink=$(echo "$paste" | xmllint --xpath "string(/INFOSec/reminder${num}/link)" - )
-      if [[ $tmpReminder != "" ]]
-      then
+      if [[ $tmpReminder != "" ]]; then
         toPrint="$tmpReminder | trim=false templateImage=$alert"
-        if [[ $tmpLink != "" ]]
-        then
+        if [[ $tmpLink != "" ]]; then
           toPrint="$toPrint href=""$tmpLink"
         fi
         echo "$toPrint"
@@ -167,23 +181,21 @@ then
         break
       fi
     done
-
     #patches to the dropdown menu
     #Custom Patches into Dropdown Menu Position2 (To prevent needing to update the plugin to add new parts)
     patchDropdown 2
     #Get Notifications (Displayed in Dropdown)
-    echo "Notifications |templateImage=$notificationIcon"
     num=1
-    while [[ 1 == 1 ]]
-    do
+    while [[ 1 == 1 ]]; do
       toPrint=""
       tmpNotif=$(echo "$paste" | xmllint --xpath "string(/INFOSec/notif${num}/content)" - )
       tmpLink=$(echo "$paste" | xmllint --xpath "string(/INFOSec/notif${num}/link)" - )
-      if [[ $tmpNotif != "" ]]
-      then
+      if [[ $tmpNotif != "" ]]; then
+        if [[ $num == 1 ]]; then
+          echo "Notifications |templateImage=$notificationIcon"
+        fi
         toPrint="$tmpNotif | trim=false"
-        if [[ $tmpLink != "" ]]
-        then
+        if [[ $tmpLink != "" ]]; then
           toPrint="$toPrint href=$tmpLink"
         fi
         echo "-- $toPrint"
@@ -192,14 +204,12 @@ then
         break
       fi
     done
-
     #patches to the dropdown menu
     #Custom Patches into Dropdown Menu Position3 (To prevent needing to update the plugin to add new parts)
     patchDropdown 3
-
     # Print Getting Started (Displayed in Dropdown)
-    if [[ $(command -v brew) -ne 0 ]]
-    then
+    brew help 2>/dev/null
+    if [[ $? == 0 ]]; then
       echo "Getting Started|templateImage=$tutorialIcon"
       echo "-- Tutorials"
       num=1
@@ -209,8 +219,7 @@ then
         tmpTutorial=$(echo "$paste" | xmllint --xpath "string(/INFOSec/tutorial${num}/name)" - )
         tmpLink=$(echo "$paste" | xmllint --xpath "string(/INFOSec/tutorial${num}/link)" - )
         tmpDesc=$(echo "$paste" | xmllint --xpath "string(/INFOSec/tutorial${num}/description)" - )
-        if [[ $tmpTutorial != "" ]]
-        then
+        if [[ $tmpTutorial != "" ]]; then
           toPrint="$tmpTutorial: $tmpDesc | href=$tmpLink trim=false"
           echo "---- $toPrint"
           ((num=$num+1))
@@ -218,21 +227,18 @@ then
           break
         fi
       done
-
       echo "---- Terminal 101: Terminal Basics | href=https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/getting_started/Terminal_101.md"
       echo "---- Installation: How to install relevant programs | href=https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/getting_started/Installations.md"
       echo "-- Install Homebrew | href=https://brew.sh/"
     else
       echo "Tutorials| templateImage=$tutorialIcon"
       num=1
-      while [[ 1 == 1 ]]
-      do
+      while [[ 1 == 1 ]]; do
         toPrint=""
         tmpTutorial=$(echo "$paste" | xmllint --xpath "string(/INFOSec/tutorial${num}/name)" - )
         tmpLink=$(echo "$paste" | xmllint --xpath "string(/INFOSec/tutorial${num}/link)" - )
         tmpDesc=$(echo "$paste" | xmllint --xpath "string(/INFOSec/tutorial${num}/description)" - )
-        if [[ $tmpTutorial != "" ]]
-        then
+        if [[ $tmpTutorial != "" ]]; then
           toPrint="$tmpTutorial: $tmpDesc | href=$tmpLink trim=false"
           echo "-- $toPrint"
           ((num=$num+1))
@@ -243,13 +249,10 @@ then
       echo "-- Terminal 101: Terminal Basics | href=https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/getting_started/Terminal_101.md"
       echo "-- Installation: How to install relevant programs | href=https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/getting_started/Installations.md"
     fi
-
     #patches to the dropdown menu
     #Custom Patches into Dropdown Menu Position4 (To prevent needing to update the plugin to add new parts)
     patchDropdown 4
-
     #Get Featured materials (Displayed in Dropdown)
-
     num=1
     while [[ 1 == 1 ]]
     do
@@ -271,12 +274,9 @@ then
     #patches to the dropdown menu
     #Custom Patches into Dropdown Menu Position5 (To prevent needing to update the plugin to add new parts)
     patchDropdown 5
-
     # Custom Commands in Dropdown
-
     num=1
-    while [[ 1 == 1 ]]
-    do
+    while [[ 1 == 1 ]]; do
       toPrint=""
       tmpName=$(echo "$paste" | xmllint --xpath "string(/INFOSec/command${num}/name)" - )
       tmpCommand=$(echo "$paste" | xmllint --xpath "string(/INFOSec/command${num}/cmd)" - )
@@ -292,33 +292,52 @@ then
         break
       fi
     done
-
     #patches to the dropdown menu
     #Custom Patches into Dropdown Menu Position6 (To prevent needing to update the plugin to add new parts)
       patchDropdown 6
       if [[ -d  /Users/${USER}/INFOSec  ]]; then
-        echo "Open Club Repository | bash='open /Users/${USER}/INFOSec; exit' templateImage=$directoryIcon"
+        echo "Open Club Repository | bash='/usr/bin/open' param1='/Users/${USER}/INFOSec' terminal=false templateImage=$directoryIcon"
       else
-        echo "Please clone club repo. "
+        echo "Please clone club repo first. "
       fi
     #patches to the dropdown menu
     #Custom Patches into Dropdown Menu Position7 (To prevent needing to update the plugin to add new parts)
     patchDropdown 7
-    echo "Launch terminal | bash='echo Welcome back. Nice to have you around. ' templateImage=$terminalIcon"
+    command -v /usr/local/bin/figlet >/dev/null 2>&1
+    if [[ $? == 0 ]]; then
+      echo "Launch terminal | bash='figlet Welcome; figlet INFOSec' templateImage=$terminalIcon terminal=true"
+    else
+      command -v /usr/local/bin/toilet >/dev/null 2>&1
+      if [[ $? == 0 ]]; then
+        echo "Launch terminal | bash='toilet Welcome; toilet INFOSec' templateImage=$terminalIcon terminal=true"
+      else
+        command -v /usr/local/bin/cowsay >/dev/null 2>&1
+        if [[ $? == 0 ]]; then
+          echo "Launch terminal | bash='cowsay' param1='Welcome back' templateImage=$terminalIcon terminal=true"
+        else
+          echo "Launch terminal | bash='echo Welcome Back' templateImage=$terminalIcon terminal=true"
+        fi
+      fi
+    fi
     #patches to the dropdown menu
     #Custom Patches into Dropdown Menu Position8 (To prevent needing to update the plugin to add new parts)
     patchDropdown 8
 
+    echo "More | templateImage=$moreIcon"
+    echo "-- View Source"
+    echo "----Input| href=$rawURL"
+    echo "----Code|href=https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/INFOSecBitBar/INFOSec.15m.sh"
+    echo "-- Officer Feedback Form| href=https://www.surveymonkey.com/r/9BWSYZT"
+    echo "-- Refresh Now |href=$refreshURL"
+    patchMore 1
     updateRepo
-
-
 #Begin minimized mode
   elif [[ $status == "minimized" ]]
   then
     #patches to the Menu Bar
     #Custom Patches into Menu Bar Position2 (To prevent needing to update the plugin to add new parts)
     patchMenu 2
-    echo " | dropdown=false templateImage=$elijahLogo"
+    echo " | dropdown=false templateImage=$INFOSecIcon"
     echo "---"
     #patches to the dropdown menu
     #Custom Patches into Dropdown Menu Position9 (To prevent needing to update the plugin to add new parts)
@@ -334,19 +353,13 @@ then
     #patches to the dropdown menu
     #Custom Patches into Dropdown Menu Position11 (To prevent needing to update the plugin to add new parts)
     patchDropdown 11
-
     updateRepo
-
-
-
 # Begin Hyperminimized Mode
-  elif [[ $status == "hyperminimized" ]]
-  then
+elif [[ $status == "hyperminimized" ]]; then
     #patches to the Menu Bar
     #Custom Patches into Menu Bar Position3 (To prevent needing to update the plugin to add new parts)
     patchMenu 3
-
-    echo " | dropdown=false templateImage=$elijahLogo"
+    echo " | dropdown=false templateImage=$INFOSecIcon"
     echo "---"
     #patches to the dropdown menu
     #Custom Patches into Dropdown Menu Position12 (To prevent needing to update the plugin to add new parts)
@@ -355,11 +368,14 @@ then
     echo ""
   fi
 else
-
   echo "Disconnected"
   echo "---"
   echo "Refresh|refresh=true"
   echo "~~~"
-  sleep 30
-  open bitbar://refreshPlugin?name=INFOSec.*?.sh
+  sleep 900
+  curl icanhazip.com
+  if [[ $? == 0 ]]
+  then
+    open bitbar://refreshPlugin?name=INFOSec.*?.sh
+  fi
 fi

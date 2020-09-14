@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>io.ngrok.sasinfosec</string>
+  <key>ProgramArguments</key>
+  <array>
+      <string>/Applications/BitBarDistro.app/Contents/MacOS/BitBarDistro</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+    <dict>
+      <key>NetworkState</key>
+	    <true/>
+    </dict>
+  <key>ThrottleInterval</key>
+  <integer>30</integer>
+</dict>
+</plist>

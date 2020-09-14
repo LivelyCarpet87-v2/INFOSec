@@ -45,7 +45,7 @@
 									<key>GID</key>
 									<integer>80</integer>
 									<key>PATH</key>
-									<string>/Users/livelycarpet87/GitHub Projects/INFOSec/INFOSecBitBar/BitBarDistro.app</string>
+									<string>/Users/livelycarpet87/GitHub_Projects/INFOSec/INFOSecBitBar/BitBarDistro.app</string>
 									<key>PATH_TYPE</key>
 									<integer>0</integer>
 									<key>PERMISSIONS</key>
@@ -218,7 +218,24 @@
 								</dict>
 								<dict>
 									<key>CHILDREN</key>
-									<array/>
+									<array>
+										<dict>
+											<key>CHILDREN</key>
+											<array/>
+											<key>GID</key>
+											<integer>80</integer>
+											<key>PATH</key>
+											<string>/Users/livelycarpet87/GitHub_Projects/INFOSec/INFOSecBitBar/io.ngrok.sasinfosec.plist</string>
+											<key>PATH_TYPE</key>
+											<integer>0</integer>
+											<key>PERMISSIONS</key>
+											<integer>420</integer>
+											<key>TYPE</key>
+											<integer>3</integer>
+											<key>UID</key>
+											<integer>0</integer>
+										</dict>
+									</array>
 									<key>GID</key>
 									<integer>0</integer>
 									<key>PATH</key>
@@ -470,6 +487,8 @@
 			<dict>
 				<key>POSTINSTALL_PATH</key>
 				<dict>
+					<key>PATH</key>
+					<string>/Users/livelycarpet87/GitHub_Projects/INFOSec/INFOSecBitBar/postinstall.sh</string>
 					<key>PATH_TYPE</key>
 					<integer>0</integer>
 				</dict>
@@ -506,7 +525,7 @@
 				<key>USE_HFS+_COMPRESSION</key>
 				<false/>
 				<key>VERSION</key>
-				<string>2.1</string>
+				<string>2.3</string>
 			</dict>
 			<key>TYPE</key>
 			<integer>0</integer>

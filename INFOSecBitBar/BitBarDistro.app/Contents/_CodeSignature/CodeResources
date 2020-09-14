@@ -388,10 +388,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			THFOuVPvNDpjelx5Dh7vvb6TbvQ=
+			Aa5pnhH5aWGoz7PxCralTxwp6Mg=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"1186918d08947e7cbdd0203cb4c1b4cc7dfa3125" or cdhash H"4c714eb953ef343a637a5c790e1eefbdbe936ef4"</string>
+			<string>cdhash H"73d1924ebb8d53e1e0a2346a21afceb1ea2a5daa" or cdhash H"01ae699e11f96961a8cfb3f10ab6a54f1c29e8c8"</string>
 		</dict>
 		<key>Resources/App.nib</key>
 		<dict>
