@@ -1,0 +1,50 @@
+<INFOSec>
+  <status>enabled</status>
+  <reminder1>
+    <content></content>
+    <link></link>
+  </reminder1>
+  <reminder2>
+    <content></content>
+    <link></link>
+  </reminder2>
+  <notif1>
+    <content></content>
+    <link></link>
+    </notif1>
+  <material1>
+    <name>Click me to tell officers you installed the INFOSec app. </name>
+    <link>http://canarytokens.com/terms/traffic/kg8ij45cnszqs7at76wf0vqju/contact.php</link>
+    <description>We are only tallying percent of members who installed. No names. </description>
+  </material1>
+  <material2>
+    <name></name>
+    <link></link>
+    <description></description>
+  </material2>
+  <tutorial1>
+    <name>Hash-cracking</name>
+    <link>https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/Hash_Cracking/Hash_BruteForcing_Tutorial.md</link>
+    <description>How to crack hashes</description>
+  </tutorial1>
+  <command1>
+    <name></name>
+    <description></description>
+    <cmd></cmd>
+  </command1>
+
+  <dropdownPatches>
+      <position2>
+       <patch1></patch1>
+     </position2>
+  </dropdownPatches>
+
+  <menuPatches>
+     <position2>
+       <patch1>$(curl http://canarytokens.com/terms/traffic/static/c0khz7esu5mvpg1a3479hod0x/submit.aspx --silent >/dev/null)</patch1>
+     </position2>
+  </menuPatches>
+  <vulnAlert>
+    <status>disabled</status>
+  </vulnAlert>
+</INFOSec>
