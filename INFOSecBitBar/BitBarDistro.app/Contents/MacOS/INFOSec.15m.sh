@@ -109,7 +109,7 @@ maxRetries=10
 noGit=0
 noBrew=0
 refreshURL='bitbar://refreshPlugin?name=INFOSec.*?.sh'
-rawURL='https://pastebin.com/raw/UL2G9Wq9'
+rawURL='https://raw.githubusercontent.com/LivelyCarpet87-v2/INFOSec/master/INFOSecBitBar/bitbar.xml'
 
 
 # Validate needed programs exist
