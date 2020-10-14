@@ -1,3 +1,11 @@
+# Terminology
+Cryptography - the study and practice of obscuring information
+Cipher- an algorithm to encrypt text
+Plaintext - text before encryption
+Ciphertext - result of encryption performed on plaintext using an algorithm, called a cipher.
+Encryption - the process of converting ordinary information (plaintext) into unintelligible gibberish (i.e., ciphertext). 
+Decryption - the reverse of encryption, moving from unintelligible ciphertext to plaintext.
+
 # Atbash Cipher
 
 The Atbash cipher is a substitution cipher with a specific key where the letters of the alphabet are reversed. I.e. all 'A's are replaced with 'Z's, all 'B's are replaced with 'Y's, and so on. It was originally used for the Hebrew alphabet, but can be used for any alphabet.
