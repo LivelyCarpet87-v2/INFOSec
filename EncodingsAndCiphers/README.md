@@ -2,8 +2,8 @@ This section contains explanations and tutorials on using/breaking ciphers and e
 
 ---
 
-Ciphers 
+- [Ciphers Reading](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/EncodingsAndCiphers/ciphers.md)
 
-Encoding
+- [Encoding](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/EncodingsAndCiphers/encodings.md)
 
-Challenge
+- [Challenge](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/EncodingsAndCiphers/challenge.md)
