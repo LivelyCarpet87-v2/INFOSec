@@ -6,7 +6,7 @@ King of the Hill has preconfigured machines, which require all teams to exploit.
 
 ## Current Game
 
-Current round can be found at ``.
+Current round can be found [here](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill1.md).
 
 ## Scoring
 

@@ -12,6 +12,10 @@ Club repository for Shanghai American INFOSec Club. Open for anyone to contribut
    
    3. [Challenge](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/EncodingsAndCiphers/challenge.md)
 
-2. [Getting Started with Command Line (needs updating)](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/getting_started/Terminal_101.md)
+2. [King of the Hill](https://github.com/LivelyCarpet87-v2/INFOSec/tree/master/KingOfTheHill)
 
-3. [Optional Readings](https://github.com/LivelyCarpet87-v2/INFOSec/tree/master/Optional_Readings)
+	1. [Hill #1](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill1.md)
+
+3. [Getting Started with Command Line (needs updating)](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/getting_started/Terminal_101.md)
+
+4. [Optional Readings](https://github.com/LivelyCarpet87-v2/INFOSec/tree/master/Optional_Readings)
