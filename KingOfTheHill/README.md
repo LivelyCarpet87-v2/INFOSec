@@ -6,15 +6,7 @@ King of the Hill has preconfigured machines, which require all teams to exploit.
 
 ## Current Game
 
-Current round can be found [here](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill1.md).
-
-## Scoring
-
-1. Points are givent to the king of the hill every 2 seconds.
-
-2. The person with the most points at the end wins. 
-
-3. The king is overthrown when the challenge is solved. 
+Current round can be found [here](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill3.md).
 
 ## Rules
 
@@ -26,12 +18,10 @@ Current round can be found [here](https://github.com/LivelyCarpet87-v2/INFOSec/b
 
 3. Please do not attack the hosting computer.
 
-4. Everything in the scope is fair game. 
+4. Everything in the scope is fair game.
 
 ## Scope
 
-1. The hill webpage.
+1. The game element webpages.
 
-2. Forms in the hill webpage.
-
-2. Redirects from the hill webpage.
+2. Other players (no violence but trickery allowed).
