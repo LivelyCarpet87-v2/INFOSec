@@ -4,6 +4,9 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.alert import Alert
 
+import re
+import html
+
 # Import some system libraries
 from time import sleep
 import sys, random
@@ -37,6 +40,17 @@ sleep(3) # delay 3 seconds
 
 if "game" not in browser.current_url: # Test if the url is the game page
   print("login expired") # If the current url does not contain game, the login must have expired
+
+# `\[` and `\]` are the litteral characters `[` and `]`
+# `.` matches any character
+# `*` is a modifier, it matches 0 to infinite of the previous character. Therefor, `.*` matches any amount of anything
+# `(` and `)` marks where the part to extract starts and ends (capture groups)
+UsernameFilter = re.search(r"<h5>Username Filter</h5>\n    <p>\['(.*)'\]</p>", browser.page_source)
+filterAsStringUnescaped = UsernameFilter.group(1) # extract the first capture group
+filterAsString = html.unescape(filterAsStringUnescaped) # Undo the html escaping for characters like `'`, `<`, `>`, etc
+
+if "'drop'" in filterAsString:
+    print("Filter item 'drop' is in the filter.")
 
 if "Team A is the best team ever" in browser.page_source: # Check if the source code contains the string of text. If yes, team A controls the device
   print("Success")
