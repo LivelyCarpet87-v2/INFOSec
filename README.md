@@ -13,12 +13,11 @@ Club repository for Shanghai American INFOSec Club. Open for anyone to contribut
    3. [Challenge](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/EncodingsAndCiphers/challenge.md)
 
 2. [King of the Hill](https://github.com/LivelyCarpet87-v2/INFOSec/tree/master/KingOfTheHill)
+    1. [Hill #1](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill1.md)
 
-  1. [Hill #1](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill1.md)
+    2. [Hill #2](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill2.md)
 
-  2. [Hill #2](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill2.md)
-
-  3. [Hill #3](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill3.md)
+    3. [Hill #3](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill3.md)
 
 3. [Steganography](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/Steganography/steganography.md)
 
