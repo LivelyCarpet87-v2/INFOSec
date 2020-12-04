@@ -45,7 +45,7 @@ if "game" not in browser.current_url: # Test if the url is the game page
 # `.` matches any character
 # `*` is a modifier, it matches 0 to infinite of the previous character. Therefor, `.*` matches any amount of anything
 # `(` and `)` marks where the part to extract starts and ends (capture groups)
-UsernameFilter = re.search(r"<h5>Username Filter</h5>\n    <p>\['(.*)'\]</p>", browser.page_source)
+UsernameFilter = re.search(r"<h5>Username Filter<\/h5>\n\ *<p>\[(.*)\]<\/p>", browser.page_source)
 filterAsStringUnescaped = UsernameFilter.group(1) # extract the first capture group
 filterAsString = html.unescape(filterAsStringUnescaped) # Undo the html escaping for characters like `'`, `<`, `>`, etc
 
