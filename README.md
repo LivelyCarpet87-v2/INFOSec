@@ -14,7 +14,7 @@ Club repository for Shanghai American INFOSec Club. Open for anyone to contribut
 
 2. [King of the Hill](https://github.com/LivelyCarpet87-v2/INFOSec/tree/master/KingOfTheHill)
 
-	1. [Hill #1](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill1.md)
+  1. [Hill #1](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill1.md)
 
   2. [Hill #2](https://github.com/LivelyCarpet87-v2/INFOSec/blob/master/KingOfTheHill/Hill2.md)
 
