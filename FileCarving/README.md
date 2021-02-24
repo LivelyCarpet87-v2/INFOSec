@@ -17,7 +17,6 @@ File carving is a process of searching for files in a data stream based on knowl
 5. To carve the files, use `scalpel image.dd` to carve the raw disk image. The output would appear in a folder called scalpel-output in the current working directory.
 
 6. If `scalpel` complains about the integrity of the data because scalpel-output already exists, you can:
-
-  1. `rm -rf ./scalpel-output` to recursively DELETE EVERTYHING inside those folders
-  2. `scalpel image.dd -o ./some-other-output-directory` to save the output in another directory
-  3. Move the scalpel-output folder
+    1. `rm -rf ./scalpel-output` to recursively DELETE EVERTYHING inside those folders. Be SURE you typed the command correctly and make sure you want to forever delete thos files.
+    2. `scalpel image.dd -o ./some-other-output-directory` to save the output in another directory
+    3. Move the scalpel-output folder to somewhere else
