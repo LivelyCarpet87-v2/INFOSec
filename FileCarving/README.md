@@ -8,6 +8,16 @@ File carving is a process of searching for files in a data stream based on knowl
 
 1. Install Scalpel by either installing from [source](https://github.com/sleuthkit/scalpel) or (if you have [Docker](https://www.docker.com/products/docker-desktop) installed) by pulling our pre-made docker image with the command `docker pull livelycarpet87/scalpel`
 
-2. If you aren't using Docker, skip this step. To use the Docker image, run `docker run -it -v "$(pwd)":/vol livelycarpet87/scalpel`
+2. If you aren't using Docker, skip this step. To use the Docker image, run `docker run -it -v "$(pwd)":/vol livelycarpet87/scalpel` This command opens the docker container in interactive mode and mounts the current working directory of the terminal window to the /vol folder in the container.
 
-3. To carve files, use `scalpel /path/to/image.dd -c /path/to/scalpel.conf` to carve the raw disk image. The output would appear in a folder called scalpel-output in the current working directory.
+3. Use the command `nano /etc/scalpel/scalpel.conf` to edit the scalpel configuration files to carve for the files you want. Press CTRL+O, then ENTER to export changes. Note: These changes will not persist across container launches.  
+
+4. Use `cd /vol` to change directory to where the file system is mounted in the container. If the raw disk image is in this directory, move on to the next step, else, use the `cd` command to change to the directory that contains the raw disk image to carve.
+
+5. To carve the files, use `scalpel image.dd` to carve the raw disk image. The output would appear in a folder called scalpel-output in the current working directory.
+
+6. If `scalpel` complains about the integrity of the data because scalpel-output already exists, you can:
+
+  1. `rm -rf ./scalpel-output` to recursively DELETE EVERTYHING inside those folders
+  2. `scalpel image.dd -o ./some-other-output-directory` to save the output in another directory
+  3. Move the scalpel-output folder
