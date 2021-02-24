@@ -8,6 +8,6 @@ File carving is a process of searching for files in a data stream based on knowl
 
 1. Install Scalpel by either installing from [source](https://github.com/sleuthkit/scalpel) or (if you have [Docker](https://www.docker.com/products/docker-desktop) installed) by pulling our pre-made docker image with the command `docker pull livelycarpet87/scalpel`
 
-2. If you aren't using Docker, skip this step. To use the Docker image, run `docker run -it -v $(pwd):/vol livelycarpet87/scalpel`
+2. If you aren't using Docker, skip this step. To use the Docker image, run `docker run -it -v "$(pwd)":/vol livelycarpet87/scalpel`
 
 3. To carve files, use `scalpel /path/to/image.dd -c /path/to/scalpel.conf` to carve the raw disk image. The output would appear in a folder called scalpel-output in the current working directory.
